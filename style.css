@@ -1,0 +1,60 @@
+*{
+    background: rgb(255, 50, 50) ;
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    font-family: 'Arvo', serif;
+    text-shadow: 3px -1px rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 8vw ;
+    margin: 4vh;
+}
+
+.set{
+    display: flex;
+    justify-content: space-around;
+    margin: 8vw;
+}
+
+.drum{
+    margin: 1vw;
+    font-size: 5vw;
+    padding: auto;
+    font-family: 'Arvo', serif;
+    text-shadow: 4px -2px rgb(0, 0, 0);
+    color: #9cdbfd;
+    background: rgb(140, 68, 6);
+    flex-grow: 1;
+}
+.drum:hover{
+    cursor: pointer;
+}
+
+.press{
+    opacity: 0.7;
+}
+.w{
+    background-image: url(tom1.png);
+}
+.a{
+    background-image: url(tom2.png);
+}
+.s{
+    background-image: url(tom3.png);
+}
+.d{
+    background-image: url(tom4.png);
+}
+.j{
+    background-image: url(snare.png);
+}
+.k{
+    background-image: url(crash.png);
+}
+.l{
+    background-image: url(kick.png);
+}
